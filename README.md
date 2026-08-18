@@ -11,6 +11,11 @@ med Elevate-designsystemet og `landingsside-brief.md`.
 > Netlify preview-domene inntil videre. Funnel-koblingene (Typeform, Calendly, Meta
 > Pixel) er stubbet med tydelige TODO-er, se [Åpne punkter](#åpne-punkter-før-lansering).
 
+> **NB:** mappen [`reporting/`](reporting/README.md) er et separat prosjekt —
+> **Elevate Reporting** (automatisert kunderapportering, Next.js, deployes til
+> Vercel). Den hører ikke til landingssiden og er blokkert fra Netlify-publisering
+> i `netlify.toml`.
+
 ---
 
 ## Struktur

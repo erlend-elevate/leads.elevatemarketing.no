@@ -6,6 +6,15 @@
   publish = "."
   command = ""
 
+# ---- Elevate Reporting (reporting/) skal ALDRI publiseres her ---------------
+# Next.js-appen i reporting/ deployes separat til Vercel. Siden Netlify
+# publiserer repo-roten, blokkeres stien så kildekoden ikke blir offentlig.
+[[redirects]]
+  from = "/reporting/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # ---- Rene URL-er for funnel-stiene (Typeform redirecter hit) ----------------
 [[redirects]]
   from = "/takk"
